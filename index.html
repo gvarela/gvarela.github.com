@@ -11,13 +11,15 @@
         background-color: #666;
       }
       h1{
+        margin: 0;
         font-size: 600px;
         line-height: 400px;
       }
       h2 {
-        margin: 0;
-        font-size: 150%;
-        line-height: 150%;
+        margin: 50px 0 0 0;
+        font-size: 130%;
+        line-height: 130%;
+        color: #333;
       }
       ul{
         list-style: none;
@@ -26,15 +28,22 @@
       a {
         text-decoration: none;
         color: #fff;
-      }
+     }
+     .links {
+             float: right;
+     }
+     .links ul {
+        padding-left: 180px;
+     }
     </style>
   </head>
   <body>
     <h1>
       Gabe Varela
     </h1>
+    <div class='links'>
     <h2>
-      Links
+      { links }
     </h2>
     <ul>
       <li>
@@ -47,5 +56,6 @@
         <a href='http://factorylabs.com'>work</a>
       </li>
     </ul>
+    </div>
   </body>
 </html>
